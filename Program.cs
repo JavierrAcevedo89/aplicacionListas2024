@@ -3,6 +3,7 @@ namespace aplicacionListas
     internal static class Program
     {
         /// <summary>
+        /// Creacion de aplicacion 21/02/2024
         ///  The main entry point for the application.
         /// </summary>
         [STAThread]
