@@ -24,10 +24,19 @@ namespace aplicacionListas
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            string nuevoElemento = txtBoxIngresar.Text;
+            string nuevoElemento = txtBoxPelicula.Text;
+            string nuevoElemento1 = txtBoxGenero.Text;
+            string nuevoElemento2 = txtBoxDuracion.Text;
+            string nuevoElemento3 = txtBoxClasi.Text; ;
             elementos.Add(nuevoElemento);
+            elementos.Add(nuevoElemento1);
+            elementos.Add(nuevoElemento2);
+            elementos.Add(nuevoElemento3);
             ActualizarListBox();
-            txtBoxIngresar.Clear();
+            txtBoxPelicula.Clear();
+            txtBoxGenero.Clear();
+            txtBoxDuracion.Clear();
+            txtBoxClasi.Clear();
         }
     }
 }
